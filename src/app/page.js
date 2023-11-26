@@ -1,113 +1,102 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-export default function Home() {
+const Resume = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="body grid min-h-screen place-items-center bg-gray-400">
+    <div className="main m-4 h-[297mm] w-[210mm] overflow-hidden rounded-md bg-white p-8 shadow-lg">
+
+      <div className="div-1">
+      <nav className='navbar relative bg-sky-900 h-[200px] z-1000 w-full'>
+      <h1 className='name-1 font-bold absolute top-[20px] left-[390px] text-[40px] text-white'>ARPITA DUTTA</h1>
+      <h2 className='name-2 absolute top-[90px] left-[390px] text-[35px] text-white'>DEVELOPER</h2>
+      <div><Image className='img h-[230px] w-[230px] absolute top-[40px] left-[40px] rounded-full' src="/Picsart_22-07-01_00-38-28-495.jpg" width="100" height="100"></Image></div>
+      </nav>
+      </div>
+      
+
+       <div className="div-2 absolute top-[300px] left-[700px]">
+        <h3 className="div1-h3 font-bold text-blue-600 underline">ABOUT ME</h3>
+        <p className=""> Web Developer with a passion for web application</p>
+        <p className=""> development and success in managing </p> 
+        <p className=""> development. projects Skilled in conceptualizing,</p> 
+        <p className=""> designing, development, and deploying software</p>
+        <p className=""> containing logical and mathematical solutions to</p>
+        <p className=""> business problems. Dedicated to driving innovation</p>
+        <p className=""> with the ability to follow industry and technological</p> 
+        <p className=""> trends, and facilitating early adoption of innovations.</p>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="div-3 absolute top-[350px] left-[400px]">
+        <h3 className="div2-h3 font-bold text-blue-600 underline">CONTACT</h3>
+        <ul>
+          <li><b>Mobile:- </b>7908087039</li>
+          <li><b>Email:- </b>arpitadutta808@gmail.com</li>
+          <li><b>Linkedin:- </b>Arpita Dutta</li>
+          <li><b>Skype:- </b>live:.cid.bc7685be6f216f87</li>
+          <li><b>Address:- </b>Chittaranjan</li>
+        </ul>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="div-4 absolute top-[580px] left-[700px]">
+      <h3 className="div3-h3 font-bold text-blue-600 underline">EXPERIENCE</h3>
+      <h4><b>Project</b></h4>
+      <p>Online OTT Platform-PHP</p>
+      </div>    
+      
+      <div className="div-5 absolute top-[550px] left-[400px]">
+      <h3 className="div4-h3 font-bold text-blue-600 underline">EDUCATION BACKGROUND</h3>
+      <ul>
+        <li><b>D.V.GIRLS (WBSCTE)</b></li>
+        <p>10Th-2014</p>
+        <li><b>D.V.GIRLS (WBSCTE)</b></li>
+        <p>12Th-2016</p>
+        <li><b>ASANSOL GIRLS COLLEGE,</b></li>
+        <li><b>KAZI NAZRUL UNIVERSITY</b></li>
+        <p>B.Sc in Zoology-2019</p>
+        <li><b>BANWARILAL BHALOTIA</b></li>
+        <li><b>COLLEGE, KAZI NAZRUL</b></li>
+        <li><b>UNIVERSITY</b></li>
+        <p>M.Sc in Zoology-2021</p>
+      </ul>
       </div>
-    </main>
-  )
+      
+      <div className="div-6 absolute top-[680px] left-[700px]">
+      <h3 className="div5-h3 font-bold text-blue-600 underline">INTERN</h3>
+      <p> <b>Technology Private Limited</b></p>
+      <p>2023</p>
+      <ul>
+        <li>Assisted in testing and debugging software </li>
+        <li>applications.</li>
+        <li>Participated in code reviews and provided </li>
+        <li>feedback.</li>
+        <li>Learned various programming languages and </li>
+        <li>frameworks.</li>
+      </ul>
+      </div>
+      
+      <div className="div-7 absolute top-[880px] left-[400px]">
+      <h3 className="div6-h3 font-bold text-blue-600 underline">SKILLS</h3>
+      <ul>
+        <li><b>JavaScript (ES6)</b></li>
+        <li><b>React.js</b></li>
+        <li><b>Node.js</b></li>
+        <li><b>HTML/CSS</b></li>
+        <li><b>PHP</b></li>
+        <li><b>C</b></li>
+        <li><b>Git</b></li>
+      </ul>
+      </div>
+
+      <div className="div-8 absolute top-[940px] left-[700px]">
+        <h3 className="div7-h3 font-bold text-blue-600 underline">DECLARATION</h3>
+        <p className="dec1"> I declare that above mentioned information </p>
+        <p className="dec2"> is correct up to my knowledge and, I bear </p>
+        <p className="dec3"> the responsibility for the correctness of the </p>
+        <p className="dec4"> above mentioned particulars.</p>
+      </div> 
+    </div>
+    </div>
+  );
 }
+
+export default Resume;
